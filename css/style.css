@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap');
+
+@font-face {
+	font-family: "Lato";
+	src: url("../fonts/Lato-Regular.woff2") format("woff2"), url("../fonts/Lato-Regular.woff") format("woff");
+	font-display: swap;
+	font-weight: 400;
+	font-style: normal;
+}
+@font-face {
+	font-family: "Lato";
+	src: url("../fonts/Lato-Bold.woff2") format("woff2"), url("../fonts/Lato-Bold.woff") format("woff");
+	font-display: swap;
+	font-weight: 700;
+	font-style: normal;
+}
+@font-face {
+	font-family: "Lato";
+	src: url("../fonts/Lato-Black.woff2") format("woff2"), url("../fonts/Lato-Black.woff") format("woff");
+	font-display: swap;
+	font-weight: 900;
+	font-style: normal;
+}
+@font-face {
+	font-family: "Larsseit";
+	src: url("../fonts/Larsseit.woff2") format("woff2"), url("../fonts/Larsseit.woff") format("woff");
+	font-display: swap;
+	font-weight: 400;
+	font-style: normal;
+}
+@font-face {
+	font-family: "Larsseit";
+	src: url("../fonts/Larsseit-Medium.woff2") format("woff2"), url("../fonts/Larsseit-Medium.woff") format("woff");
+	font-display: swap;
+	font-weight: 500;
+	font-style: normal;
+}
+@font-face {
+	font-family: "Larsseit";
+	src: url("../fonts/Larsseit-Bold.woff2") format("woff2"), url("../fonts/Larsseit-Bold.woff") format("woff");
+	font-display: swap;
+	font-weight: 700;
+	font-style: normal;
+}
+.text{
+    color: rgb(255, 0, 0);
+}
+div.paragraph-three{
+    color: rgb(255, 94, 0);
+}
+.paragraph-four.lesson{
+    color: rgb(255, 196, 0);
+}
+.paragraph-five p{ 
+    color: rgb(145, 255, 0);
+}
+.paragraph-six>p{
+    color: rgb(0, 255, 213);
+}
+.paragraph~p{
+    color: rgb(0, 89, 255);
+}
+.paragraph-text+p{
+    color: rgb(162, 0, 255);
+}
+.paragraph-nine *{
+    color: rgb(255, 0, 0);
+}
+.paragraph-ten,
+.paragraph-eleven{
+    color: rgb(0, 153, 255);
+}
+.paragraph-twelve .red{
+    color: red;
+}
+.paragraph-twelve .blue{
+    color: blue;
+}
+.paragraph-thirteen{
+    color: blueviolet;
+}
+.paragraph-thirteen p{
+    color: #000;
+}
+#paragraph-priority{
+    color: rgb(43, 255, 0);
+}
+.important{
+    color: rgb(234, 0, 255)!important;
+}
+p{
+    font-family: "lato";
+}
+h1{
+    font-family: "roboto";
+}
+h2{
+    font-family: "larsseit";
+}
+.paragraph-eleven p,
+.paragraph-twelve p,
+.paragraph-thirteen p{
+    font-family: "roboto";
+}
+.lato{
+    font-family: "roboto";
+}
+img{
+    width: 40%;
+}
